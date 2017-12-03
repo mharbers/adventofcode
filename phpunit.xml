@@ -5,6 +5,9 @@
         <testsuite name="AdventOfCode - Day 1">
             <directory>./tests/Day1</directory>
         </testsuite>
+        <testsuite name="AdventOfCode - Day 2">
+            <directory>./tests/Day2</directory>
+        </testsuite>
     </testsuites>
 
     <filter>
