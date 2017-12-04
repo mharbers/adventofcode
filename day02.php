@@ -22,3 +22,6 @@ EOT;
 
 $checksumCalculator = \Mharbers\AdventOfCode\Day2\SpreadsheetChecksumCalculator::fromString($data);
 var_dump($checksumCalculator->calculate());
+
+$checksumCalculator = \Mharbers\AdventOfCode\Day2\SpreadsheetChecksumByDivisionCalculator::fromString($data);
+var_dump($checksumCalculator->calculate());
